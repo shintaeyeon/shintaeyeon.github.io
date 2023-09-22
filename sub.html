@@ -5,23 +5,67 @@
         <meta charset="utf-8" />
     </head>
     <body>
-        <h1>쏜애플</h1>
         <style>
-            th, td {
-                border: solid 1px black;
-            }
+            @font-face {
+                font-family: 'KBIZHanmaumMyungjo';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+}
+    div{
+        width: 100%; 
+        position: relative;
+        background: url(image/thorn.jpg);
+        background-size: cover;
+        height: 1080px;
+    }
+    div::before{
+        content: "";
+        opacity: 0.5;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: #000;
+    }
+    div h1{
+    color: #fff;
+    text-align: center;
+    line-height: 250px;  
+    position: relative;
+    font-family: 'KBIZHanmaumMyungjo'}
+
+    div h2{
+    color: #fff;
+    text-align: center; 
+    position: relative;
+    font-family: 'KBIZHanmaumMyungjo'}
+
+    div p{
+    color: #fff;
+    text-align: center;
+    position: relative;}
+
+    div p{
+    color: #fff;
+    text-align: center;
+    position: relative;}
+
         </style>
-        <table>
-            <tr> <!-- row 행 줄-->
-                <th rowspan="2">제목1</th> <!-- table header -->
-                <th colspan="2">제목2</th> <!-- colum 열 -->
-                <th>제목3</th>
-            </tr>
-            <tr>
-                <td>내용1</td>
-                <td>내용2</td>
-                <td>내용3</td>
-            </tr>
-        </table>
+        <div>
+            <h1>쏜애플 EP [동물]</h1>
+            <h2>"너 또한 동물이다."</h2>
+            <p>
+                지난 정규 3집 [계몽] 발매 이후,
+                <br/> 대체 불가한 팀 고유의 색채를 평단으로부터 인정받은 쏜애플이 새로운 EP [동물]로 찾아온다.
+                <br/> 와미페달을 사용한 강렬한 사운드로 포문을 여는 타이틀곡 '멸종',
+                <br/> 신디사이저 사운드가 전면에 배치된 '할시온'과 '게와 수돗물'을 비롯해 인상적인 기타 리프가 돋보이는 '살',
+                <br/> 변칙적인 사운드 구성을 엿볼수 있는 '파리의 왕'까지 유기적으로 구성된 5개의 트랙은
+                <br/> 쏜애플만의 입체적인 곡 전개 방식을 자랑한다.
+                <br/> 치열한 고민을 엿볼 수 있는 실험적인 사운드메이킹.
+                <br/> EP [동물]에서 다시 한번 쏜애플 음악의 새로운 방향을 제시한다
+            </p>
+        </div>
     </body>
 </html> 
